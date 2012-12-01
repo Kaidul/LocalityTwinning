@@ -1,0 +1,46 @@
+a { 
+	color:#572994;
+}
+
+
+/* call background */
+.text_field1 {
+	background:url(purple/bg_search_form.png) no-repeat;
+}
+.button2 {
+	background:#572994;
+}
+#top {
+	background:url(purple/bg_top.gif) repeat-x;
+	border-bottom:solid 1px #3d186f;
+}
+.button1 {
+	background:url(purple/bg_button_sprite.png) no-repeat left top;
+}
+.button2 {
+	background:#572994;
+}
+#navigation {
+	background:url(purple/divider_nav.gif) no-repeat left top;
+}
+#navigation li {
+	background:url(purple/divider_nav.gif) no-repeat right top;
+}
+#navigation a:hover, #navigation li.current_page_item a {
+	background:#3d186f;
+	color:#fdff6a;
+}
+#navigation ul li:hover a {
+	background:#3d186f;
+	color:#fdff6a;
+}
+#navigation ul ul {
+	background:#3d186f;
+}
+.pagination span.current, .pagination a:hover {
+	background:#572994;
+	border:solid 1px #572994;
+}
+.post h2 {
+	color:#572994
+}

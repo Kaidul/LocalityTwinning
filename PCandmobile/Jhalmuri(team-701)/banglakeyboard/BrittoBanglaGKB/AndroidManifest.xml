@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+        package="com.jhalmuri.GKB"
+        android:versionCode="1"
+        android:versionName="1.0" >
+        <uses-sdk android:minSdkVersion="3" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <application android:label="@string/ime_name">   
+        <activity
+            android:name=".Builder_activity"
+            android:label="BrittoBangla GestureKB" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Input_gesture" />
+        <activity android:name=".Gesture_test" />
+        <activity android:name=".Gesture_keyboard_activity" />
+
+        <service
+            android:name=".BrittoBangla"
+            android:permission="android.permission.BIND_INPUT_METHOD" >
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+    </application>
+</manifest>
+
+
+   

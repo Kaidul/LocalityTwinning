@@ -1,0 +1,46 @@
+a { 
+	color:#619414;
+}
+
+
+/* call background */
+.text_field1 {
+	background:url(green/bg_search_form.png) no-repeat;
+}
+.button2 {
+	background:#619414;
+}
+#top {
+	background:url(green/bg_top.gif) repeat-x;
+	border-bottom:solid 1px #486915;
+}
+.button1 {
+	background:url(green/bg_button_sprite.png) no-repeat left top;
+}
+.button2 {
+	background:#619414;
+}
+#navigation {
+	background:url(green/divider_nav.gif) no-repeat left top;
+}
+#navigation li {
+	background:url(green/divider_nav.gif) no-repeat right top;
+}
+#navigation a:hover, #navigation li.current_page_item a {
+	background:#486915;
+	color:#fdff6a;
+}
+#navigation ul li:hover a {
+	background:#486915;
+	color:#fdff6a;
+}
+#navigation ul ul {
+	background:#486915;
+}
+.pagination span.current, .pagination a:hover {
+	background:#619414;
+	border:solid 1px #619414;
+}
+.post h2 {
+	color:#619414;
+}

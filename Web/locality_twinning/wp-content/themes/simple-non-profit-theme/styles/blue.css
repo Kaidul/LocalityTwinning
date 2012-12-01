@@ -1,0 +1,46 @@
+a { 
+	color:#3c6db4;
+}
+
+
+/* call background */
+.text_field1 {
+	background:url(blue/bg_search_form.png) no-repeat;
+}
+.button2 {
+	background:#3c6db4;
+}
+#top {
+	background:url(blue/bg_top.gif) repeat-x;
+	border-bottom:solid 1px #234d89;
+}
+.button1 {
+	background:url(blue/bg_button_sprite.png) no-repeat left top;
+}
+.button2 {
+	background:#3c6db4;
+}
+#navigation {
+	background:url(blue/divider_nav.gif) no-repeat left top;
+}
+#navigation li {
+	background:url(blue/divider_nav.gif) no-repeat right top;
+}
+#navigation a:hover, #navigation li.current_page_item a {
+	background:#234d89;
+	color:#fdff6a;
+}
+#navigation ul li:hover a {
+	background:#234d89;
+	color:#fdff6a;
+}
+#navigation ul ul {
+	background:#234d89;
+}
+.pagination span.current, .pagination a:hover {
+	background:#3c6db4;
+	border:solid 1px #3c6db4;
+}
+.post h2 {
+	color:#3c6db4
+}

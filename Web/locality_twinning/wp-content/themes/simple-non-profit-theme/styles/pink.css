@@ -1,0 +1,46 @@
+a { 
+	color:#dd4586;
+}
+
+
+/* call background */
+.text_field1 {
+	background:url(pink/bg_search_form.png) no-repeat;
+}
+.button2 {
+	background:#dd4586;
+}
+#top {
+	background:url(pink/bg_top.gif) repeat-x;
+	border-bottom:solid 1px #dd4586;
+}
+.button1 {
+	background:url(pink/bg_button_sprite.png) no-repeat left top;
+}
+.button2 {
+	background:#dd4586;
+}
+#navigation {
+	background:url(pink/divider_nav.gif) no-repeat left top;
+}
+#navigation li {
+	background:url(pink/divider_nav.gif) no-repeat right top;
+}
+#navigation a:hover, #navigation li.current_page_item a {
+	background:#dd4586;
+	color:#fdff6a;
+}
+#navigation ul li:hover a {
+	background:#dd4586;
+	color:#fdff6a;
+}
+#navigation ul ul {
+	background:#dd4586;
+}
+.pagination span.current, .pagination a:hover {
+	background:#dd4586;
+	border:solid 1px #dd4586;
+}
+.post h2 {
+	color:#dd4586
+}

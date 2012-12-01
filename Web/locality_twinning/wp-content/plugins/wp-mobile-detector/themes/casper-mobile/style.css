@@ -1,0 +1,371 @@
+/*   
+Theme Name: Casper Mobile
+Theme URI: http://websitez.com
+Description: Casper Mobile is a powerful mobile theme that utilizes the jQuery mobile framework to give an advanced user experience. Combine with the <a href="http://websitez.com/products-page/featured/wordpress-mobile-plugin/">WP Mobile Detector</a> for a great mobile experience.
+Author: Websitez.com
+Author URI: http://www.websitez.com
+Version: 1.0
+Tags: one-column, flexible-width, silver, white
+*/
+
+ @charset "utf-8";
+
+/*Global */
+body
+{margin: 0;
+padding: 0;
+background: #e4e4e4;}
+a{
+	text-decoration: none;
+	border: none;
+	outline: none;
+	color: #000;
+}
+a:hover{
+	color: #000;
+	border: none;
+	outline: none;
+}
+div{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+img{
+	border: 0px;
+}
+.clear{
+	clear: both;
+}
+
+/*Header*/
+#slideshow img {
+    max-width: 100%; 
+    max-height:100%;
+}
+#slideshow{ width:100%; margin: 0px auto; text-align: left;position: relative;max-width: 1024px;}
+#heading{
+ padding-top: 17px;
+}
+#header{
+	background: url(images/header_bg.png) repeat-x;
+	border-bottom: 1px solid #616161;
+}
+#header h1{
+	font-family: 'Helvatica';
+	font-size: 20px;
+	font-style: italic;
+	line-height: 16px;
+	padding: 6px; margin: 8px; 
+}
+#header h1 span{
+	color: #33ccff;
+}
+#header h1 a{
+	color: #FFF;
+}
+.ui-icon-top-call{
+	background: transparent url(images/top_call.png) no-repeat;
+    box-shadow: none;
+	background-size: 30px 30px;
+	width: 33px;
+	height: 33px;
+}
+#header .ui-btn-icon-notext{
+    width:33px;
+    height:33px;
+    border: none;        
+    background: transparent;
+}
+
+#header .ui-btn-up-c {
+    border: 0px;
+    box-shadow: none;
+}
+
+#header .ui-btn-icon-notext .ui-btn-inner {
+    padding: 0px;
+
+
+}
+
+#header .ui-btn-inner {
+    border: 0px;
+}
+
+#index_body{
+	background: #000;
+}
+
+/*List View*/
+.ui-li-thumb-index-arrow {
+    left: 1px;
+    max-height: 40px; 
+    max-width: 40px; 
+    top: 9px;
+    position: absolute;
+}
+.ui-li-thumb-list-arrow {
+    left: 1px;
+    max-height:70px; 
+    max-width: 70px; 
+    top: 5px;
+    position: absolute;
+}
+.ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+ul.upper_case li.index{
+	background: url(images/button.jpg) repeat-x !important;
+}	
+ul.upper_case li{
+	background: url(images/list_bg.jpg) repeat-x !important;
+}	
+ul.upper_case li a{
+	margin-top: 5px;
+	font-size: 18px;
+	margin-left: 0px;
+	text-transform: capitalize;
+}
+ul.upper_case li.index a{
+	font-size: 18px;
+	margin-left: -30px;
+	text-transform: capitalize;
+}
+
+ul.upper_case li a span{
+	display: block;
+	font-size: 13px;
+	color: #33ccff;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+#list_header{
+	color: #000;
+	text-shadow: none;
+	text-align: center;
+}
+.ui-icon-index-arrow{
+	background: url(images/next.png) 50% 50% no-repeat;
+	box-shadow: none;
+	background-size: 24px 24px;
+}
+.ui-icon-list-arrow{
+	background: url(images/next_black.png) 50% 50% no-repeat;
+	background-size: 24px 24px; 
+	box-shadow: none;
+}
+
+.ui-icon-select-arrow{
+	background: url(images/drop.png) 50% 50% no-repeat;
+	box-shadow: none;
+	background-size: 24px 24px;
+}
+
+ul.upper_case li.search a{
+	font-size: 14px;
+	margin-top: 5px;
+	text-transform: capitalize;
+}
+ul.upper_case li.search{
+	background: url(images/button.jpg) repeat-x !important;
+}
+
+ul.upper_case li.s a{
+	font-size: 15px;
+	margin-top: 5px;
+	text-transform: capitalize;
+}
+ul.upper_case li.s{
+	background: url(images/list_bg1.jpg) repeat-x !important;
+}
+
+/*Social icon on footer*/
+.social{padding:5px;padding-bottom: 5px;}  
+.social a {margin-left:7px; margin-right: 7px;}
+
+
+/*Copyright-text, address, phone, email*/
+div#custom_footer{position:relative;text-align:center;font-weight:normal;font-size:80%;padding:10px;height:auto;}
+
+.ui-icon-phone{
+	background:  url(images/phone2.png) 50% 50% no-repeat;  background-size: 24px 24px;
+}
+.ui-icon-email{
+	background:  url(images/mail.png) 50% 50% no-repeat; 
+	background-position: 2px 0px;
+	 background-size: 50%;
+	 padding-left: 19px;
+}
+.ui-icon-twitt{
+	background:  url(images/twitt.png) 50% 50% no-repeat;
+	background-size: 95%;
+	padding: 4px;
+}
+.ui-icon-trader{
+	background:  url(images/trader.png) 50% 50% no-repeat;
+	background-size: 95%;padding: 4px;
+}
+.ui-icon-loaner{
+	background:  url(images/loaner.png) 50% 50% no-repeat;
+	background-size: 100%;padding: 4px;
+}
+.ui-icon-fb{
+	background:  url(images/fb.png) 50% 50% no-repeat;
+	background-size: 95%;padding: 4px;
+}
+.ui-icon-phonn{
+	background:  url(images/phone2.png) 50% 50% no-repeat;
+	background-size: 95%;padding: 4px;
+}
+.ui-icon-mail{
+	background:  url(images/mail.png) 50% 50% no-repeat;
+	background-size: 95%;padding: 4px;
+}
+.ui-icon-fav{
+	background:  url(images/fav.png) 50% 50% no-repeat;
+	background-size: 95%;padding: 4px;
+}
+.ui-icon-photos{
+	background:  url(images/photos.png) 50% 50% no-repeat;
+	background-size: 95%;padding: 4px;
+}
+#exhibition img{
+	width: 99%;
+}
+#footer{
+	background: #000 url('images/footer-bg.jpg') no-repeat top right;
+}
+
+/*button*/
+.button{
+	background: url(images/button.png) repeat-x;
+	color: #000;
+	text-shadow: none;
+}
+.button2{
+	background: url(images/button2.png) repeat-x;
+	color: #000;
+	text-shadow: none;
+	padding: 0px;
+}
+
+#price_bar, #friend{
+	margin: 0px auto;
+	text-align: center;
+	background: #000;
+	padding: 5px;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+#price_bar{
+	text-align: left;
+}
+#price_bar span#r{
+	float: right;
+	color: #33ccff;
+}
+/*form*/
+#service_form label, #trade_form label{
+	display: block;
+	padding-bottom: 5px;
+}
+#formpage, #formpage2, #formpage3{
+	background: #000;
+}
+
+table#cardetails{
+	width: 99%;
+	margin: 0px auto;
+	font-size: 15px;
+}
+table#cardetails thead{
+	background: #000;
+}
+table#cardetails tr td#right{
+	text-align: right;
+}
+table#cardetails tr td#left{
+	text-align: left;
+	color: #bbbbbb;
+}
+.error{
+	color: red;
+	padding-top: 3px;
+	font-size: 14px;
+}
+.jqError{
+	color: red;
+	padding-top: 3px;
+	font-size: 14px;	
+}
+
+/*count*/
+.ui-li-count{
+	background: #FFF;
+
+}
+#counter1{
+	color: #000;
+}
+#counter2{
+	color: #000;
+}
+#car_heading{
+	text-align: center;
+	margin: 0px auto;
+	font-size: 22px;
+}
+.search_cars .ui-li .ui-btn-inner a.ui-link-inherit, .search_cars .ui-li-static.ui-li {
+    padding-top:20px;
+    padding-bottom:19px;
+}
+#search_cars .ui-li .ui-btn-inner a.ui-link-inherit, #search_cars .ui-li-static.ui-li {
+    padding-top:20px;
+    padding-bottom:19px;
+}
+.makelist .ui-li .ui-btn-inner a.ui-link-inherit, .makelist .ui-li-static.ui-li {
+   padding-top:10px;
+   padding-bottom:10px;
+}
+.index_body .ui-li .ui-btn-inner a.ui-link-inherit, .index_body .ui-li-static.ui-li {
+   padding-top:20px;
+   padding-bottom:19px;
+}
+
+      #index_b .ui-li .ui-btn-inner a.ui-link-inherit, #index_b .ui-li-static.ui-li {
+             padding-top:20px;
+             padding-bottom:19px;
+           }
+ul.upper_case li.model a{
+	font-size: 18px;
+	margin-left: -30px;
+	text-shadow: none;
+	text-transform: capitalize;
+}
+ul.upper_case li.model{
+	background: url(images/list_bg1.jpg) repeat-x !important;
+}	
+ul.upper_case li.model a{
+	color: #000;
+	text-shadow: none;
+}	
+.x{
+	font-size: 14px;
+}
+.y{
+	font-size: 13px;
+}
+#l{
+	line-height: 14px;
+}
+option{
+	text-transform: capitalize;
+}
+.invisible{
+	display: none;
+}
+.visible{
+	display: block;
+}

@@ -1,0 +1,13 @@
+
+
+@font-face {
+    font-family: 'GnuolaneFree';
+    src: url('../fonts/gnuolane_free-webfont.eot');
+    src: url('../fonts/gnuolane_free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gnuolane_free-webfont.woff') format('woff'),
+         url('../fonts/gnuolane_free-webfont.ttf') format('truetype'),
+         url('../fonts/gnuolane_free-webfont.svg#GnuolaneFree') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
