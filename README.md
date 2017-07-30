@@ -1,5 +1,3 @@
-Locality twinning
-=================
 Event: Sanitation Hackathon, 2012
 
 Contributors :
